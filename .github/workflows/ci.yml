@@ -11,7 +11,7 @@ jobs:
         uses: actions/checkout@master
 
       - name: Build and Deploy
-        uses: JamesIves/github-pages-deploy-action@master
+        uses: Jia-Hongwei/vuepress-theme-vdoing@master
         env:
           ACCESS_TOKEN: ${{ secrets.VUEPRESS }}
           BRANCH: gh-pages
